@@ -9,7 +9,7 @@ export const fetchShow = () => {
     )
     .then(res => {
         return res;
-    });
+    }).catch(err => {return('error dummy', err)});
 };
  
 
